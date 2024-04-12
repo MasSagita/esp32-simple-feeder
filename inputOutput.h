@@ -150,7 +150,7 @@ float dallas(int x, byte start)
         ds.write(0xCC);
         ds.write(0xBE);
         for (int i = 0; i < 2; i++)
-            data[i] = ds.read();
+            data[i] = ds.read(); 
         result = (data[1] << 8) | data[0];
         // Here you could print out the received bytes as binary, as requested in my comment:
         // Serial.println(result, BIN);

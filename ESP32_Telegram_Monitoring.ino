@@ -29,7 +29,10 @@ int64_t userid = 1226142648;
 const char TEXT_HELP[] = "Available Commands:\n"
                          "/pakan - Aktifasi servo\n"
                          "/cek_suhu  - Cek suhu aquarium\n"
-                         "/cek_ph - Cek nilai pH pada aquarium";
+                         "/cek_ph - Cek nilai pH pada aquarium"
+                         "/set_ph4 - set tegangan ph4"
+                         "/set_ph7 - set tegangan ph7"
+                         "/set_offset - set offset untuk nilai ph";
 
 float setVph7;
 float setVph4;
